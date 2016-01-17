@@ -1,1 +1,362 @@
+body   
+{
+ 	 align-content:center;
+	 text-align: center;
+	 margin: auto;
+}
+a{
+	color: grey;
+	text-decoration: none;
+	font-size: small;
+	
+}
+span.bold
+{
+    font-weight: bold;	
+}
+.float-right
+{
+	float: right;
+}
+.float-left
+{
+	float: left;
+}
+/*
+a  class that wraps around each of the website section ( header , event, solutions..) 
+*/
+.section-container
+{
+	width: 940px;
+	margin: auto;
+	
+}
+header
+{
+	background-color: white;	
+    box-shadow: 0 1px 3px 0 grey;
+	display: block;
+	position: absolute;
+	width:100%;
+	/*height: 90px;*/
+}
+.logo
+{
+	float: left;
+	margin: 15px;
 
+}
+.search-line-divider
+{
+	background-image: url(search_line_devider.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 55px;
+	padding: 10px;
+}
+.normal-top-padding
+{
+ 	margin-top: 0px;
+}
+.no-line-divider
+{
+	background-image: none;
+}
+.header-right
+{
+	width: 189px;
+}
+.language-selector
+{
+	border: 0cm; 
+}
+.search-form
+{
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+	margin-top: 65px;
+	
+}
+.search-box
+{
+	border: 0cm;
+	border-style: none;
+	background-image: url(search_line_devider.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	
+	
+}
+/******************************** */
+/* Slides */
+.slides
+{
+	background-image: url(slide-bg-complexity.jpg);
+	background-position: fixed;
+	background-position: center;
+    background-size: cover;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	height:450px;
+	padding-top: 95px;
+	color: white;
+}
+.learn-more-div
+{
+	background-color: rgb(38, 147, 201);
+	border-radius: 6px;
+	width:150px;
+   	box-shadow: 0 1px 3px 0 grey;
+	font-size: medium;
+	
+	padding:5px;
+}
+.btnArrow
+{
+	float:right;
+	padding: 5px;
+}
+.bullets
+{
+	margin-top: 10px;
+}
+.bullet
+{
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	background-color: white;
+	margin-right: 5px;
+	
+}
+.active-bullet
+{
+	background-color: rgb(38, 147, 201);	
+}
+.slides-boxes
+{
+	margin-top:40px;
+}
+.li-slide
+{
+	float: left;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px 0 grey;
+	text-align: left;
+	width: 250px;
+	margin-right: 35px;
+	font-size: 1.3em;
+	padding: 20px 15px 20px 15px;
+}
+.no-right-margin
+{
+	margin-right: 0px;
+}
+.pink
+{
+background-color:rgba(252,60,157,0.8);	
+}
+.pink :hover
+{
+	background-color:rgb(252,60,157);
+}
+.green
+{
+	background-color:rgb(101,193,43);
+}
+.orange
+{
+	background-color: rgb(226,116,0)
+}
+.slide-box-bottom-link
+{
+	padding-top: 20px;
+}
+.slide-box-icon
+{
+	display: inline;
+}
+.read-more
+{
+	font-size: 0.7em;
+	display: inline;
+vertical-align: middle;
+}
+.slide-content-wrapper
+{
+	width: 100%;
+	height: 100%;
+	color: white;
+
+}
+/******************************** */
+.solution-icons
+{
+margin: 0%;
+float: left;
+width:150px;
+}
+.button-main
+{
+	background-color: #205fff;
+	color: white;
+	box-shadow: 0 1px 3px 0 grey;
+	border-radius: 6px;
+	text-align: left;
+	padding: 10px;
+	width: 200px;
+	border-width: 0px;
+	background-position: right 10px center;
+	background-repeat: no-repeat;
+	background-image: url(btnArrow.png) ;
+	margin: 50px;
+}
+
+#solutions
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	background-image: url(WeDoBg.png);
+	background-repeat: repeat;
+	background-color: #3399cd;
+	 
+}
+h1
+{
+	font-size: 3em;
+	font-weight: lighter;
+	padding: 0in; 
+	margin: 2px;
+}
+h2
+{
+	margin:0px;
+	padding-top: 10px;
+ 	font-size: 2em;	
+	font-weight: lighter;
+}
+h5{
+	margin: 2px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+.events
+{
+	background-image: url(news-and-events-bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-position: center;
+	background-size: cover;
+	color: white;
+	align-content:center;
+	text-align: center;
+	min-height:420px;
+}
+.events-boxes
+{
+	margin-top:40px;
+}
+.event-box
+{
+	float: left;
+	text-align: left;
+	
+}
+.blurred-box
+{
+ 	background-color:rgba(255,255,255,0.4);
+	border-radius: 2px;
+	 width:288px;
+	 height: 120px;
+	 color: white;
+	 margin-right:25px;
+}
+
+.blurred-box:hover
+{
+	background-color: rgba(255,255,255,0.7);
+}
+.event-date
+{
+	background-color: rgb(51,153,204);
+	border-radius: 1px;
+	width: 70px;
+	height:100px;
+	margin: 10px;
+	color: white;
+}
+.event-day
+{
+	font-size: 4em;
+	text-align: center;
+	border-bottom-style: dotted;
+	border-color: white;
+
+}
+.event-month
+{
+	text-align: center;
+	padding: 5px;
+	font-size: 1.5em;
+}
+.event-text
+{
+	padding-top: 10px;
+	color:  black;
+
+	
+	
+}
+.event-small-icon
+{
+	background-position: left;
+	margin-top:10px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	padding-top:5px;
+	font-size: small;
+	color:white;
+}
+.news-icon
+{
+	background-image: url(eventListIconNews.png);
+}
+.news-icon:hover
+{
+	color:rgb(30,30,30);
+	background-image: url(eventListIconNews_hover.png);
+	
+}
+.all-events-icon
+{
+	background-image: url(eventListIconEvents.png);
+}
+.all-events-icon:hover
+{
+	background-image: url(eventListIconEvents_hover.png);
+}
+.all-press-releases
+{
+	background-image: url(eventListIconPress);
+}
+
+/* Success Stories CSS Section */
+
+.success-stories
+{
+	background-color: rgb(236,236,236);
+	color:rgb(86,86,86);
+}
+.success-stories-title
+{
+	color:rgb(86,86,86);
+}
+
+/* footer  css Section*/
