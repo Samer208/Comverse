@@ -48,7 +48,7 @@ header
 }
 .search-line-divider
 {
-	background-image: url(img/search_line_devider.png);
+	background-image: url(../img/search_line_devider.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	margin-top: 55px;
@@ -82,7 +82,7 @@ header
 {
 	border: 0cm;
 	border-style: none;
-	background-image: url(img/search_line_devider.png);
+	background-image: url(../img/search_line_devider.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	
@@ -92,7 +92,7 @@ header
 /* Slides */
 .slides
 {
-	background-image: url(img/slide-bg-complexity.jpg);
+	background-image: url(../img/slide-bg-complexity.jpg);
 	background-position: fixed;
 	background-position: center;
     background-size: cover;
@@ -209,7 +209,7 @@ width:150px;
 	border-width: 0px;
 	background-position: right 10px center;
 	background-repeat: no-repeat;
-	background-image: url(img/btnArrow.png) ;
+	background-image: url(../img/btnArrow.png) ;
 	margin: 50px;
 }
 
@@ -218,7 +218,7 @@ width:150px;
 
 	font-family: Arial, Helvetica, sans-serif;
 	color:white;
-	background-image: url(img/WeDoBg.png);
+	background-image: url(../img/WeDoBg.png);
 	background-repeat: repeat;
 	background-color: #3399cd;
 	 
@@ -249,7 +249,7 @@ ul{
 
 .events
 {
-	background-image: url(img/news-and-events-bg.jpg);
+	background-image: url(../img/news-and-events-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-position: center;
@@ -326,25 +326,25 @@ ul{
 }
 .news-icon
 {
-	background-image: url(img/eventListIconNews.png);
+	background-image: url(../img/eventListIconNews.png);
 }
 .news-icon:hover
 {
 	color:rgb(30,30,30);
-	background-image: url(img/eventListIconNews_hover.png);
+	background-image: url(../img/eventListIconNews_hover.png);
 	
 }
 .all-events-icon
 {
-	background-image: url(img/eventListIconEvents.png);
+	background-image: url(../img/eventListIconEvents.png);
 }
 .all-events-icon:hover
 {
-	background-image: url(img/eventListIconEvents_hover.png);
+	background-image: url(../img/eventListIconEvents_hover.png);
 }
 .all-press-releases
 {
-	background-image: url(img/eventListIconPress);
+	background-image: url(../img/eventListIconPress);
 }
 
 /* Success Stories CSS Section */
