@@ -29,7 +29,6 @@ a  class that wraps around each of the website section ( header , event, solutio
 {
 	width: 940px;
 	margin: auto;
-	
 }
 header
 {
@@ -102,15 +101,15 @@ header
 	padding-top: 95px;
 	color: white;
 }
-.learn-more-div
+.Blue-button-div
 {
 	background-color: rgb(38, 147, 201);
 	border-radius: 6px;
 	width:150px;
+	height:35px;
    	box-shadow: 0 1px 3px 0 grey;
 	font-size: medium;
-	
-	padding:5px;
+	padding:10px;
 }
 .btnArrow
 {
@@ -149,10 +148,7 @@ header
 	font-size: 1.3em;
 	padding: 20px 15px 20px 15px;
 }
-.no-right-margin
-{
-	margin-right: 0px;
-}
+/****************heree**/ 
 .pink
 {
 background-color:rgba(252,60,157,0.8);	
@@ -236,9 +232,6 @@ h2
 	padding-top: 10px;
  	font-size: 2em;	
 	font-weight: lighter;
-}
-h5{
-	margin: 2px;
 }
 ul{
 	margin: 0px;
@@ -354,19 +347,111 @@ ul{
 	background-color: rgb(236,236,236);
 	color:rgb(86,86,86);
 	height: 550px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .success-stories-title
 {
 	color:rgb(86,86,86);
 }
+.success-story
+{
+	height: 310px;
+	width: 345px;
+	color:#7c7c7c;
+	margin-right: 10px;
+	float:left;
+
+}
+
+.third-success-story
+{
+	width:226px;
+	margin-right: 0px;
+}
 .success-story-quate
 {
 	background-color: white;
+	text-align: left;
+}
+.quate-upper-section
+{
+	height:110px;
+	border-bottom: 1px solid lightgrey;
+	
+}
+.quate-img
+{
+	height: 110px;
+	width: 100px;
+
+}
+.quate-auther
+{
+margin-top: 10px;
+padding-bottom: 5px;	
+margin-bottom: 10px;
+}
+.auther-name
+{
+	color:lightblue;
+	font-weight: normal;
+}
+.auther-position
+{
+	font-weight: normal;
 }
 .success-story-icon-box{
-	width:100px;
+	width:108px;
 	height: 100px;
+	text-align: center;
 	background-color: white;
+	margin-right: 10px;
 	
+}
+.middle-ss-container-top
+{
+	margin-top: 15px;
+	margin-bottom: 125px;
+}
+/**** 	Footer CSS	****/
+.footer
+{
+	background-image: url(../img/footer-bg.png);
+	height: 323px;
+	color: white;
+	padding-top: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.9em;
+}
+.footer-colomn
+{
+	float: left;
+	width:240px;
+	text-align: left;
+	
+}
+.footer-list
+{
+	list-style: none;
+	
+}
+
+.footer-list-item:hover
+{	
+    text-decoration: underline;
+}
+.latest-blog-posts
+{
+background-color:rgba(255,255,255,0.2);	width:300px;
+}
+
+/***** General classes ********/
+.no-right-margin
+{
+	margin-right:0px;
+}
+.center
+{
+	text-align: center;
 }
 /* footer  css Section*/
