@@ -266,7 +266,7 @@ ul{
 }
 .events-boxes
 {
-	margin-top:40px;
+	padding-top:45px;
 }
 .event-box
 {
@@ -455,8 +455,9 @@ margin-bottom: 10px;
 }
 .footer-blog
 {
-	background-color:rgba(255,255,255,0.2);	width:300px;
-	width:300px;
+	background-color:rgba(255,255,255,0.2);
+	width:288px;
+	margin:-15px 0px 0px 0px;
 }
 .latest-blog-posts
 {	
@@ -545,5 +546,10 @@ margin-bottom: 10px;
 	clear: left;
 	margin: auto;
 	margin-top: 380px;
+}
+h4{
+	padding : 0px;
+	margin: 0px;
+	font-weight: lighter;
 }
 /* footer  css Section*/
