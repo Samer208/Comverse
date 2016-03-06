@@ -148,22 +148,34 @@ header
 	font-size: 1.3em;
 	padding: 20px 15px 20px 15px;
 }
-/****************heree**/ 
+.li-slide:hover
+{
+	cursor: pointer;	
+}
+/****************heree li slides colors**/ 
 .pink
 {
 background-color:rgba(252,60,157,0.8);	
 }
-.pink :hover
+.pink:hover
 {
 	background-color:rgb(252,60,157);
 }
 .green
 {
-	background-color:rgb(101,193,43);
+	background-color:rgba(101,193,43,0.8);
+}
+.green:hover
+{
+	background-color:rgba(101,193,43,1);
 }
 .orange
 {
-	background-color: rgb(226,116,0)
+	background-color: rgba(226,116,0,0.8)
+}
+.orange:hover
+{
+	background-color: rgba(226,116,0,1)
 }
 .slide-box-bottom-link
 {
