@@ -30,7 +30,7 @@ a  class that wraps around each of the website section ( header , event, solutio
 	width: 940px;
 	margin: auto;
 }
-header
+.header-section
 {
 	background-color: white;	
     box-shadow: 0 1px 3px 0 grey;
@@ -92,7 +92,7 @@ header
 .slides
 {
 	background-image: url(../img/slide-bg-complexity.jpg);
-	background-position: fixed;
+	background-attachment: fixed;
 	background-position: center;
     background-size: cover;
 	text-align: left;
