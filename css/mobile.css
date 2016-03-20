@@ -6,6 +6,14 @@
 {
     display: none;
 }
+#back-to-top
+{
+    display: none;
+}
+.mobile-footer
+{
+    display: none;
+}
 @media (max-width: 770px) {
 .section-container {
 	width: 100%;
@@ -68,6 +76,7 @@
     height:  100%;
     padding-top: 0px;
     padding-bottom: 5px;
+    background-size: cover;
     background-repeat: none;
 }
 .slides-upper-text
@@ -126,7 +135,7 @@
 }
 .solution-item
 {
-    width:26%;
+    width:30%;
     height: 120px;
     font-size: 0.7em
 }
@@ -138,6 +147,118 @@
 {
     display: none;
 }
+/**/
+.events
+{
+    padding-bottom: 10px;
+}
+.events-header
+{
+    font-weight:  lighter;
+    font-size:x-large;
+}
+.event-box
+{
+    float: none;
+    width: 100%;
+    margin-bottom:20px;
+}
+.blurred-box
+{
+    width:100%;
+}
+.event-box > h2
+{
+    font-size: 1.5em;    
+}
+/* success stories section  */ 
+.success-stories
+{
+    height: 100%;
+    padding-bottom: 30px;
+}
+.success-story
+{
+    width:100%;
+     padding-bottom: 10px;
+}
+.third-success-story
+{
+    display: none;
+}
+.success-story-icon-box
+{
+    width: 30%;
+}
+.success-stories-button
+{
+    margin:auto;
+    width:200px;
+    clear:both;
+}
+#back-to-top
+{
+    display:  inline-block;
+    position: relative;
+    float:  right;
+}
+/*footer*/
+.footer
+{
+    display: none;
+}
+.mobile-footer
+{
+    display: block;
+}
+.mobile-footer-list
+{
+    background-image: url(../img/footer-bg.png);
+    color:white;
+   font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+    text-align: left;
+}
+.mobile-footer-list-item
+{
+    border-bottom: 1px solid black;
+    padding:13px;
+}
+
+.mobile-social-media-icon
+{
+    float:right;
+    margin-right: 20px;
+    margin-top: -3px;
+}
+.mobile-social-media-icon img
+{   width: 35px;
+    height: 35px;
+}
+.mobile-language-selector
+{
+   color: white;
+   background-color: rgba(255,255,255,0.3); 
+   border:none;
+   border-radius: 2px;
+   padding: 3px 5px 3px 5px;
+   font-size: 1em;
+}
+.mobile-language-selector > option
+{
+    background-color: grey;
+}
+.mobile-coryrights
+{
+    background-clip: white;
+    text-align: center;
+    font-size: small;
+    padding:5px;
+}
+
+
+
+
 
 
 
