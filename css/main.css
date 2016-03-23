@@ -127,6 +127,7 @@ a  class that wraps around each of the website section ( header , event, solutio
 }
 .bullet
 {
+	float: left;
 	width: 10px;
 	height: 10px;
 	border-radius: 2px;
@@ -134,7 +135,7 @@ a  class that wraps around each of the website section ( header , event, solutio
 	margin-right: 5px;
 	
 }
-.active-bullet
+.bullet:hover
 {
 	background-color: rgb(38, 147, 201);	
 }
@@ -246,6 +247,7 @@ background-color:rgba(252,60,157,0.8);
 	background-repeat: no-repeat;
 	background-image: url(../img/btnArrow.png) ;
 	margin:50px 0px 15px 0px;
+	cursor: pointer;
 }
 
 /** 		Events section **/
@@ -390,8 +392,29 @@ background-color:rgba(252,60,157,0.8);
 	background-color: white;
 	text-align: left;
 }
+/* did not work
+.success-story-container
+{
+	overflow: hidden;
+		width :100%;
+	height:203px;
+}
+.success-story-quate:hover
+{
+	transform:translateY(-100%);
+}
+
+.bottom-layer
+{
+	background-color: rgb(58,165,218);
+	width: 100%x;
+	height: 203px;
+	margin-bottom:10px;
+	z-index: 1;
+}*/
 .quate-upper-section
 {
+	width:100%;
 	height:110px;
 	border-bottom: 1px solid lightgrey;
 	
@@ -402,7 +425,7 @@ background-color:rgba(252,60,157,0.8);
 	width: 100px;
 
 }
-/********fix the margin ***********/
+
 .quate-auther
 {
 margin-top: 10px;
@@ -419,6 +442,7 @@ margin-bottom: 10px;
 {
 	font-weight: normal;
 }
+
 .success-story-icon-box{
 	width:108px;
 	height: 100px;
@@ -427,7 +451,7 @@ margin-bottom: 10px;
 	margin-right: 10px;
 	float: left;
 }
-.middle-ss-container-top
+.middle-ss-icons-top
 {
 	margin-top: 15px;
 	margin-bottom: 125px;
